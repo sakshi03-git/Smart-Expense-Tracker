@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 /*sidebar*/
 .app{
     display: flex;
@@ -5,14 +8,16 @@
 ul{
     display: flex;
     flex-direction: column;
-    text-decoration:none;
 }
-#thought-card{
+ul a{
+    text-decoration: none;
+}
+.thought-card{
     width: 20vw;
     height: 40vh;
     border: 1px solid transparent;
 }
-#dashboard-header{
+.dashboard-header{
     display: flex;
     justify-content: space-between;
     align-items:center;
