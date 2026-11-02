@@ -5,17 +5,29 @@
 .app{
     display: flex;
 }
+.sidebar{
+    background-color: #0D2645;
+    color: white;
+    padding-left: 10px;
+}
 ul{
     display: flex;
     flex-direction: column;
 }
 ul a{
     text-decoration: none;
+    color: white;
 }
 .thought-card{
-    width: 20vw;
-    height: 40vh;
+    width: 12vw;
+    height: 25vh;
     border: 1px solid transparent;
+    margin: 12px;
+    padding: 10px ;
+    border-radius: 10%;
+    background-color: #12325a;
+    text-align: center;
+    font-size: 13px;
 }
 .dashboard-header{
     display: flex;
