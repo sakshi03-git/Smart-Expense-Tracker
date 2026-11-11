@@ -13,6 +13,7 @@
 ul{
     display: flex;
     flex-direction: column;
+    list-style-type: none;
 }
 ul a{
     text-decoration: none;
@@ -33,4 +34,7 @@ ul a{
     display: flex;
     justify-content: space-between;
     align-items:center;
+}
+.main-content{
+    padding: 0 0 0 30px;
 }
