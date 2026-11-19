@@ -59,11 +59,32 @@
                <span>5% vs. last month</span>
             </article>
           </section>
-          <section>
+          <section id="all-transactions">
             <h2>All Transactions</h2>
           </section>
-        </main>
-        </div>
-        </body>
-        
-        </html>
+          <section id="filter-transactions">
+            <h2>Filter Transactions</h2>
+           <label for="date">Date Range</label>
+            <input id="date" name="date" type="date" placeholder="sep 1,2026 - sep 30, 2026">
+           <label for="categories">Category</label>
+            <select id="categories" name="categories">
+               <option value="" disabled selected>All Categories</option>
+               <option></option>
+            </select>
+             <label for="types">type</label>
+            <select id="type" name="types" >
+               <option value="" disabled selected>All Types</option>
+               <option></option>
+            </select>
+            <label for="search">Search</label>
+            <input id="search" name="search" type="text" placeholder="Search...">
+            <button>Reset</button>
+            <button>Apply</button>
+          </section>
+          <section id="quick-summary">
+            <h2>Quick Summary</h2>
+         </section> 
+   </main>
+</div>
+</body>
+</html>
