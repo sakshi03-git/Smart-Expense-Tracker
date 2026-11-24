@@ -38,3 +38,6 @@ ul a{
 .main-content{
     padding: 0 0 0 30px;
 }
+.overview-card{
+    border: 2px solid black;
+}
