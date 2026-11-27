@@ -4,11 +4,14 @@
 /*sidebar*/
 .app{
     display: flex;
+    min-height: 100vh;
 }
 .sidebar{
     background-color: #0D2645;
     color: white;
     padding-left: 10px;
+    width: 250px;
+    flex-shrink: 0;
 }
 ul{
     display: flex;
@@ -37,6 +40,8 @@ ul a{
 }
 .main-content{
     padding: 0 0 0 30px;
+    flex-shrink: 1;
+    min-width: 0;
 }
 .overview-card{
     border: 2px solid black;
